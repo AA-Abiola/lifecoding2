@@ -1,0 +1,173 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 35px;
+    background-color: white;
+    height: 70px;
+    border-bottom: 1px solid white;
+    padding: 50px 0px;
+    position: sticky;
+    top: 0;
+}
+
+.logo {
+    margin-left: 200px;
+}
+
+.nav-link li {
+    text-decoration: none;
+    align-items: center;
+    color: black;
+    padding: 0px 10px;
+    justify-content: center;
+    display: flex;
+    gap: 30px;
+    margin-right: 100px;
+}
+
+.nav-link a {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+
+}
+
+.btn{
+    border-radius: 25px;
+    padding: 15px 15px;
+    background-color: #0087DB;
+    margin-right: 150px;
+    color: #0087DB;
+
+}
+
+.btn :hover {
+    cursor: pointer;
+    color: white;
+    border: 1px solid #0087DB;
+}
+
+.body {
+    background-image: url(https://sheleadsafrica.org/wp-content/uploads/2023/12/leighann-blackwood-hx87JWG4yCI-unsplash-1.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+}
+
+.body h2 {
+    font-size: 44px;
+    font-weight: 700;
+    margin-bottom: 80px;
+    color: white;
+    margin-top: 20px;
+    padding: 350px 10px;
+}
+
+
+.grid-template {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 150px;
+}
+
+.grid-template1 {
+    margin-left: 130px;
+}
+
+.grid-template2 {
+    margin-right: 70px;
+
+}
+
+.grid-template2 h2 {
+    font-size: 44px;
+    font-weight: 700;
+}
+
+.grid-template2 p {
+margin-top: 10px;
+}
+
+.btn2 {
+    padding: 9px 35px;
+    background-color: #0087DB;
+    color: white;
+    margin-left: 400px;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-left: 10px;
+    color: #0087DB;
+    border: 1px solid #0087DB;
+
+
+}
+
+.btn2:hover {
+    cursor: pointer;
+    color: white;
+}
+
+.section2 {
+    background-image: url(https://sheleadsafrica.org/wp-content/uploads/2023/11/pattern-bg.jpg);
+    background-position: center;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 65px;
+}
+
+.sec {
+    border-radius: 25px;
+    padding: 3px 15px;
+
+}
+
+.butt{
+    background-color: #C0E7FF;
+    border-radius: 20px;
+    padding: 2px 65px;
+    border: 1px solid #C0E7FF;
+    color: #0087E0;
+    font-weight: 500px;
+    font-size: 14px;
+    margin-top: 70px;
+    margin-left: 150px;
+    
+}
+
+.section2 h2 {
+    font-size: 44px;
+    font-weight: 700px;
+    margin-left: 150px;
+    margin-top: 20px;
+    color: white;
+}
+
+.section2 span button {
+    padding: 12px 50px;
+    background-color: white;
+    border-radius: 25px;
+    border: 1px solid white;
+    margin-left: 600px;
+    color: #0087DB;
+
+}
+
+.section2 span button:hover {
+    background-color: #0087DB;
+    color: white;
+    cursor: pointer;
+}
+
+
+.section-grid1 {
+    grid-template-columns: 1fr 1fr;
+}
